@@ -1,0 +1,230 @@
+/* Bill */
+#bill {
+    width: 80%;
+    margin: 6rem auto 0 auto;
+}
+
+/* bill no: id: name: */
+.guopoidHead {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.iconnboxx {
+    text-align: center;
+    font-size: 45px;
+    color: #347FFF;
+}
+.logo_image_bill{
+    display: none;
+}
+
+.idf {
+    display: grid;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.billGopBox {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.billGopBox table {
+    width: 100%;
+}
+
+.billGopBox table tr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.billGopBox table tr th {
+    width: 15%;
+    text-align: center;
+}
+
+.billGopBox table tr td {
+    width: 15%;
+    text-align: center;
+}
+.hr{
+    margin-top: 1rem;
+}
+
+.titlePrice {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.place-on {
+    display: grid;
+    gap: 1rem;
+    padding: 0 2rem;
+    margin-top: 1.5rem;
+}
+
+.popular {
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    padding: 0 30px;
+}
+
+#post .edit-product-form .input-box .popular input {
+    margin-left: -15rem;
+}
+
+.box_btn_product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn_delete_save{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.btn_delete_order{
+    padding: 8px 15px;
+    background-color: #ff5234;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+.btn_save{
+    padding: 8px 15px;
+    background-color: #347FFF;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+.btn_select_all{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.btn_order_select{
+    padding: 8px 15px;
+    background-color: #347FFF;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+.btn_order_all{
+    padding: 8px 15px;
+    background-color: #ff5234;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.box_icon_backOrderbill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_link_orderpage{
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    font-size: 18px;
+    margin: 1.5rem 0;
+}
+#box_icon_Back{
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    #bill .bill-detial {
+        margin-top: 2.5rem;
+    }
+
+    #bill .bill-detial .id span p {
+        padding: 0.2rem;
+        font-size: 1rem;
+    }
+
+    #bill .bill-detial .detial span {
+        padding: 0.8rem 0;
+        font-size: 1rem;
+    }
+
+    #bill .bill-detial .detial span h3 {
+        font-size: 1rem;
+    }
+
+    #bill .bill-detial .place-on span p:last-child {
+        padding-left: 0.2rem;
+    }
+    .logo_image_bill{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 431px) {
+    #bill {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #bill .bill-detial {
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+
+    .bill-detial {
+        padding: 25px 20px;
+        background: #FFF;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
+    }
+    .billGopBox{
+        margin-top: -0.5rem;
+    }
+    .hr{
+        display: none;
+    }
+   
+    .popular{
+        display: none;
+    }
+    
+    .box_btn_product{
+        display: none;
+        /* gap: 0.3rem;
+        margin-left: -0.8rem; */
+    }
+    .btn_delete_save{
+        gap: 0.3rem;
+    }
+    .btn_select_all{
+        gap: 0.3rem;
+    }
+    .titlePrice {
+        margin-top: -0.5rem;
+    }
+    .place-on {
+        margin-top: -0.5rem;
+    }
+
+}

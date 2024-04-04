@@ -1,0 +1,13 @@
+
+.box_bill_productS{
+    padding-top: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+/* For smartphones with a maximum width of 480px */
+@media only screen and (max-width: 480px) {
+    .box_bill_product {
+        padding: 0;
+    }
+}

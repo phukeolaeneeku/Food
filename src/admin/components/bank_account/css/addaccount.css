@@ -1,0 +1,99 @@
+#box_container_bank{
+    width: 80%;
+    margin: auto;
+    padding: 5rem 0;
+}
+.container_bank_account{
+    width: 100%;
+    margin: auto;
+    margin-left: 7.3rem;
+}
+.header_box_management{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.box_management_iconnback{
+    display: flex;
+    gap: 0.1rem;
+    align-items: center;
+    font-size: 18px;
+}
+#icons_backs{
+    font-size: 1.3rem;
+}
+.container_box_input{
+    width: 100%;
+    padding: 25px 0;
+}
+
+.box_container_review{
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.input_product_box{
+    padding: 10px 10px;
+}
+.input_product_box label{
+    font-size: 17px;
+}
+.input_product_box input{
+    width: 100%;
+    padding: 12px 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.add_img_product_box{
+    padding: 10px 10px;
+}
+.add_img_product_box label{
+    font-size: 16px;
+}
+.boxicon_image_input{
+    display: flex;
+    align-items: center;
+}
+
+.boxicon_image_input{
+    width: 100%;
+    padding: 12px 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.boxicon_img_input{
+    display: flex;
+    align-items: center;
+}
+.boxicon_img_iconn{
+    font-size: 29px;
+}
+.btn_Save{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 10px;
+}
+
+.btn_save_product{
+    padding: 10px 40px;
+    background: #ff471a;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+}

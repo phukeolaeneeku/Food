@@ -1,0 +1,63 @@
+#box_container_bank{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+.container_bank_account{
+    width: 100%;
+    margin: auto;
+}
+.header_box_management{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.box_management_iconnback{
+    display: flex;
+    gap: 0.1rem;
+    align-items: center;
+    font-size: 18px;
+}
+#icons_back{
+    font-size: 1.4rem;
+}
+.container_box_input{
+    width: 100%;
+    padding: 25px 0;
+}
+.add_payment_box{
+    display: flex;
+}
+.btn_save_productUser{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    width: 13%;
+    height: 2.5rem;
+    background-color: #ff471a;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.box_container_review1{
+    margin-top: 5rem;
+}
+.inputproduct_box_dplay{
+    width: 100%;
+    margin: 20px 0;
+    padding: 14px 10px;
+    border-radius: 7px;
+    border: 1px solid #DDDCE1;
+}
+
+.imag_qrcode_store {
+    text-align: center;
+}
+
+.imag_qrcode_store img {
+    width: 30%;
+}
+

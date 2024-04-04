@@ -1,0 +1,341 @@
+
+.box_container_login2 {
+  display: grid;
+  margin: 0 auto;
+  gap: 15px;
+  width: 40%;
+}
+
+.box_container_login2 input,
+.box_container_login2 button {
+  width: 100%;
+  padding: 1rem 1rem;
+  border-radius: 14px;
+  border: 1px solid var(--gray);
+}
+
+.box_container_login2 button {
+  background-color: var(--orange);
+  cursor: pointer;
+  color: var(--white);
+  font-size: 1.2rem;
+}
+
+.box_container_login2 input:focus {
+  outline: none;
+}
+
+
+.google-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--gray);
+  border-radius: 14px;
+  padding: 1rem 3rem;
+  width: 100%;
+}
+
+.google-login svg {
+    height: 6vh;
+
+}
+
+#iconBack{
+  width: 29px;
+  height: 29px;
+}
+.box_iconBack_login{
+  margin-right: 35rem;
+}
+
+/* ============== body box_container_login ============== */
+.box_container_login2 {
+  width: 80%;
+  position: relative;
+  border-radius: 1em;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box_cancel_login {
+  text-align: center;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+.googlebtn_btn {
+  display: grid;
+}
+
+#icon_cancel_login {
+  width: 30px;
+  height: 30px;
+}
+
+.cover {
+  width: 400px;
+  height: 565px;
+  position: relative;
+  border-radius: 1em;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.container_login_form {
+  border: 1px solid var(--blue);
+}
+
+.error{
+  text-align: start;
+  margin-top: 5px;
+  color: #FF4F16;
+}
+
+.box_container_login_text {
+  color: rgba(0, 0, 0, 0.80);
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  
+}
+.box_pleaselogin{
+  margin-top: 1px;
+  font-size: 17px;
+  color: #777;
+}
+
+.titol_email{
+  text-align: start;
+}
+
+.input {
+  width: 100%;
+  display: grid;
+  text-align: start;
+}
+.input input {
+  width: 100%;
+}
+
+.input_form {
+  width: 100%;
+  height: 58px;
+  /* margin: auto; */
+  border-radius: 15px;
+}
+
+.input_form {
+  padding: 20px 15px;
+}
+
+
+.forgot_password {
+  text-align: end;
+  font-size: 18px;
+  color: #777;
+  padding: 5px 0 15px 0;
+}
+.findpassword{
+  margin-left: 0.5rem;
+}
+
+
+.google_btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.google_btn p {
+  color: rgba(0, 0, 0, 0.60);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 18px;
+}
+
+.box_form {
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.box_form input {
+  width: 450px;
+  height: 58px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.40);
+}
+
+
+
+/* =============== Button Login with Google ============== */
+.google-login{
+  width: 600px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--gray);
+  border-radius: 14px;
+  padding: 0.3rem 3rem;
+  width: 100%;
+}
+
+.box_dont{
+  font-size: 18px;
+  margin-top: 1rem;
+  color: #777;
+}
+.loginmoreLink{
+  color: #FF4F16;
+  margin-left: 0.5rem;
+}
+.google_account{
+  font-size: 18px;
+  margin-top: 1.5rem;
+  color: #777;
+}
+
+/* ============= Button Login ===============*/
+
+.loginbtn_login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_btn {
+  width: 600px;
+  height: 58px;
+  margin-top: -1.5rem;
+  background: #FF4F16;
+  color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  font-size: 20px;
+}
+
+.login_btn:hover {
+  color: #FFF;
+}
+
+/* ===== Alert login page =====*/
+
+.box_AlartLogin{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border: solid 2px var(--orange);
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  border-radius: 15px;
+}
+
+.icon_Alert{
+  font-size: 35px;
+}
+
+.txt_alert{
+  font-size: 16px;
+}
+.icon_Alert_canCel{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.werwer{
+  position: absolute;
+  top: 4%;
+}
+
+/* ============ Alert Sccessful ===========*/
+.alert_success{
+  width: 25%;
+  height: 15vh;
+  margin: 0;
+  font-size: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border:  solid 2px #FF4F16;
+  border-radius: 5px;
+}
+
+/*============== Responsive =====================*/
+@media (max-width: 768px) {
+  .box_container_login2 {
+    width: 100%;
+    top: 35%;
+    left: 50%;
+  }
+
+  .cover {
+    width: 100%;
+    display: grid;
+    margin-top: 4rem;
+  }
+
+  .input {
+    width: 100%;
+    display: grid;
+  }
+  .input input {
+    width: 100%;
+    height: 50px;
+  }
+ 
+
+  .box_form input {
+    width: 100%;
+  }
+
+  .login_btn{
+    width: 100%;
+    height: 50px;
+  }
+  .google-login {
+    border: none;
+    
+  }
+  .forgot_password {
+      margin-top: 0.5rem;
+  }
+  .box_iconBack_login{
+      margin-right: 21rem;
+  }
+  .alert_success{
+    width: 55%;
+    height: 8vh;
+    border: solid 2px blue;
+  }
+}
+
+

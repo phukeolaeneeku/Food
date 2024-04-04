@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.box_container_cart {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_container_cart .display_products {
+    width: 48%;
+    margin-top: 7rem;
+}
+
+.container_cart_item {
+    height: 12rem;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.box_item_image {
+    display: flex;
+    width: 100%;
+}
+
+.box_item_image img {
+    width: 50%;
+    background-color: #eee;
+}
+
+.box_item_text {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.box_item_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-top: 7.8rem;
+    font-size: 22px;
+}
+/* icon delete*/
+
+#btnicon_delete {
+    font-size: 20px;
+    color: #FFF;
+}
+.box_icon_order {
+    position: relative;
+
+}
+
+.btnicon_delete_order {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: #FA442C;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 7px;
+    top: 0;
+    right: 0;
+}
+
+
+/* Amount */
+.box_item_icon span {
+    width: 10%;
+}
+
+.box_item_icon span input {
+    width: 100%;
+    text-align: center;
+}
+
+.icon_minus_plus {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.sub {
+    cursor: pointer;
+}
+
+.box_item_total {
+    position: absolute;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 7rem 0;
+    left: 50%;
+    top: 2%;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.box_item_total_text {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+}
+
+.box_item_total_text p {
+    width: 20%;
+
+}
+
+.box_item_total_text input {
+    text-align: right;
+    color: #28B463;
+    font-size: 1.2rem;
+    justify-content: end;
+}
+
+.btn {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    padding: 1re;
+    justify-content: center;
+}
+
+.checkout_btn {
+    padding: 12px 28px;
+    background: #FA442C;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.Continues_btn {
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: 2px solid #FA442C;
+    color: #FA442C;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+/* cart empty */
+.cart {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #ff0000;
+}
+
+/*=========== Resposive =============*/
+
+
+/* For smartphones with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+    .box_container_cart {
+        flex-direction: column;
+        display: flex;
+        width: 95%;
+    }
+
+    .box_container_cart .display_products {
+        width: 95%;
+        margin: 5rem auto 0 auto;
+
+    }
+
+    .container_cart_item {
+        width: 100%;
+        height: auto;
+        gap: 1rem;
+        padding: 10px;
+    }
+
+    .box_item_image {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .box_item_image img {
+        width: 60%;
+    }
+
+    /* Text products */
+    /* .box_item_text {
+        font-size: 10px;
+        margin-left: 1rem;
+    } */
+
+    .box_item_text .name,
+    .box_item_text .description {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 20px;
+        max-width: 400px;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+
+    .box_item_icon {
+        width: 100%;
+        margin-top: 3.8rem;
+        font-size: 1.3rem;
+    }
+
+    .box_item_total {
+        position: relative;
+        width: 100%;
+        height: auto;
+        left: 0;
+        margin-top: 1rem;
+        margin-bottom: 7rem;
+    }
+
+    .btn {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .cart {
+        text-align: center;
+        font-size: 1.3rem;
+        margin-top: 14rem;
+        color: #ff0000;
+    }
+}
+
+/* For smartphones with a maximum width of 640px */
+@media only screen and (max-width: 640px) {
+    .box_container_cart {
+        width: 85%;
+    }
+}
+
+/* For smartphones with a maximum width of 480px */
+@media only screen and (max-width: 480px) {
+    .box_container_cart {
+        width: 100%;
+    }
+
+    .container_cart_item {
+        width: 100%;
+    }
+}
+
+/* For smartphones with a maximum width of 320px */
+@media only screen and (max-width: 320px) {
+    .box_container_cart {
+        width: 95%;
+    }
+}

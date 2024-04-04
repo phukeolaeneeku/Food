@@ -1,0 +1,148 @@
+
+.box_forgot {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 120px 0;
+}
+.title{
+  margin-top: 1.5rem;
+  font-size: 18px;
+}
+.container_form_user{
+  margin-top: 3rem;
+}
+
+#iconBack{
+  width: 29px;
+  height: 29px;
+}
+.box_iconBack{
+  margin-right: 35rem;
+}
+
+.box_infor{
+font-size: 18px;
+font-weight: 600;
+text-align: start;
+}
+
+.box_title{
+  text-align: start;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.container_form_user {
+display: grid;
+margin: 0 auto;
+gap: 15px;
+width: 40%;
+}
+
+.container_form_user2 {
+display: flex;
+align-items: center;
+position: relative;
+width: 100%;
+
+}
+.container_form_user2 input{
+  border: none;
+}
+.verification{
+right: 5px;
+position: absolute;
+padding: 8px 10px;
+border: 1px solid var(--gray);
+border-radius: 15px;
+cursor: pointer;
+}
+
+.container_form_user input,
+.container_form_user button {
+width: 100%;
+height: 58px;
+padding: 1rem 1rem;
+border-radius: 14px;
+border: 1px solid var(--gray);
+font-size: 16px;
+}
+
+.container_form_user button {
+background-color: var(--orange);
+cursor: pointer;
+color: var(--white);
+font-size: 1.2rem;
+}
+
+.container_form_user input:focus {
+outline: none;
+}
+
+/* ============ Alert Sccessful ===========*/
+.alert_success_sigup{
+  width: 25%;
+  height: 15vh;
+  margin: 0;
+  font-size: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  /* background-color: #00000036; */
+  border:  solid 2px #FF4F16;
+  border-radius: 5px;
+}
+
+/*============== Responsive =====================*/
+@media (max-width: 768px) {
+  .box_forgot {
+    width: 100%;
+  }
+  .box_title{
+    margin-left: -0.2rem;
+  }
+  .container_form_user {
+    width: 90%;
+    display: grid;
+  }
+  .container_form_user input {
+    width: 100%;
+    height: 50px;
+  }
+  .box_infor{
+    margin-left: 1.5rem;
+  }
+  .box_iconBack{
+    margin-right: 30rem;
+  }
+
+}
+
+@media (max-width: 431px) {
+  .box_forgot {
+    width: 100%;
+  }
+  .box_title{
+    margin-left: -0.05rem;
+  }
+  .box_iconBack{
+    margin-right: 21rem;
+  }
+  .alert_success_sigup{
+    width: 68%;
+    height: 8vh;
+    border: solid 2px blue;
+  }
+
+}
+
+
+
+

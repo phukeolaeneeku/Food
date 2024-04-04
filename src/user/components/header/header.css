@@ -1,0 +1,290 @@
+/* Header */
+
+#header .navbar {
+    width: 100%;
+    height: 90px;
+    z-index: 999;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.10);
+    position: fixed;
+}
+
+.headWithBox {
+    width: 85%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#header .navbar,
+.headWithBox,
+.headMenu,
+.ulHead_box,
+.boxLiMenu {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.logo1 img{
+    width: 40px;
+    height: 40px;
+}
+
+.icon_account_login{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.headMenu {
+    gap: 1rem;
+}
+
+#header .navbar {
+    list-style-type: none;
+    display: flex;
+}
+
+#header .navbar {
+    width: 100%;
+}
+
+.linkLi {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    font-size: 17px;
+}
+
+.headMenu .linkLi,
+.head_colorr {
+    transition: all 0.3s ease;
+}
+
+#header .navbar a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.linkLi a:hover {
+    color: #FF4F16;
+}
+
+.active {
+    color: #FF4F16;
+}
+
+.ulHead_box,
+.boxsearchContainer {
+    width: 60%;
+    gap: 3rem;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Search bar */
+.ulHead_box .searchBarForm {
+    width: 100%;
+    display: flex;
+}
+
+.ulHead_box form input {
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 0.6em 1rem;
+    border-right: none;
+    border-radius: 7px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.ulHead_box form button {
+    background-color: #FF4F16;
+    border: 1px solid #ccc;
+    padding: 0 1rem;
+    border-radius: 7px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ulHead_box a {
+    font-size: 1.3rem;
+}
+
+.head_colorr {
+    color: #3a3a3a;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.head_colorr p{
+    display: flex;
+    align-items: center;
+    width: 70px;
+}
+
+.iconSearch {
+    font-size: 17px;
+}
+
+.head_colorr:hover {
+    color: #FF4F16;
+}
+
+.head_colorr .login {
+    margin-left: 0.3rem;
+    font-size: 1.6rem;
+}
+
+/* Banner */
+#banner div {
+    margin-top: 2rem;
+}
+
+.storename{
+    position: relative;
+    cursor: pointer;
+    width: 130px;
+    height: 10vh;
+    overflow: hidden;
+}
+.storename img{
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+
+@media screen and (min-width: 1537px) and (max-width: 1950px) {
+    .headWithBox {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1025px) {
+    .headWithBox {
+        width: 100%;
+        gap: 1rem;
+        padding: 0 10px;
+    }
+
+    .ulHead_box {
+        width: 60%;
+        gap: 2rem;
+    }
+
+    .boxsearchContainer {
+        width: 55%;
+        gap: 0;
+    }
+    .ulHead_box form input {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 830px) {
+    .headWithBox {
+        width: 100%;
+        gap: 1rem;
+        padding: 5px;
+    }
+
+    #header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #header .navbar {
+        width: 100%;
+        padding: 0.3rem 0;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #banner {
+        width: 100%;
+        margin: 0;
+    }
+
+    #banner div {
+        margin-top: 2rem;
+    }
+
+    .ulHead_box {
+        width: 55%;
+        gap: 1rem;
+    }
+
+    .boxsearchContainer {
+        width: 55%;
+        gap: 1rem;
+    }
+
+    .ulHead_box form input {
+        width: 100%;
+    }
+    .storename{
+        display: none;
+        align-items: center;
+    }
+    .logo1 img{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .headWithBox {
+        padding: 0 10px;
+    }
+
+    .boxLiMenu {
+        display: none;
+    }
+
+    .ulHead_box {
+        gap: 2rem;
+        justify-content: end;
+    }
+
+    /* Banner in moblie*/
+    .boxsearchContainer {
+        display: none;
+    }
+
+    .ulHead_box {
+        width: 90%;
+    }
+
+    .ulHead_box form input {
+        width: 100%;
+        padding: 0.6rem 1rem;
+        border-radius: 10px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .ulHead_box form button {
+        border-radius: 10px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .headMenu .logo1 img {
+        width: 80%;
+    }
+    .head_colorr p{
+        display: none;
+    }
+    .icon_account_login{
+        gap: 5px;
+    }
+
+}

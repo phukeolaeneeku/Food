@@ -1,0 +1,70 @@
+#container_order_item {
+    width: 80%;
+    margin: 6rem auto 0 auto;
+}
+
+.account-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container_order_item .container_order_all {
+    display: grid;
+    width: 100%;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.guopIconbAck {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#container_order_item .box_item_order {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: left;
+    gap: 1.9rem;
+    margin-top: 0.6rem;
+    padding: 20px 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+.iconnBack {
+    font-size: 25px;
+}
+
+
+#container_order_item .box_item_order_text p {
+    margin-top: 0.3rem;
+}
+
+
+.txtheadeproductorder {
+    font-weight: 600;
+    text-align: left;
+}
+
+@media screen and (max-width: 769px) {
+    #container_order_item {
+        width: 100%;
+    }
+    #container_order_item .container_order_all {
+        padding: 15px;
+    }
+    #container_order_item .box_item_order {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    #container_order_item .box_item_order img {
+        width: 45%;
+    }
+    #container_order_item .box_item_order {
+        padding: 10px 20px;
+    }
+}

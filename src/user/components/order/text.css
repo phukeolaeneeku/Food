@@ -1,0 +1,27 @@
+
+.boxhead_container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.box_coustomer p{
+    margin-top: 1rem;
+    font-size: 16px;
+}
+.box_notice p{
+    margin-top: 1rem;
+    font-size: 16px;
+}
+.box_favorite p{
+    margin-top: 1rem;
+    font-size: 16px;
+}
+.box_contact p{
+    margin-top: 1rem;
+    font-size: 16px;
+}

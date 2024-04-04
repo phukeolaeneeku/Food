@@ -1,0 +1,248 @@
+body {
+    background-color: #F5F5F5;
+}
+
+/* Left bar */
+#dashboard .left {
+    position: fixed;
+    left: 0;
+    width: 235px;
+    height: 830px;
+    z-index: 999;
+    background-color: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* menu */
+#dashboard .left .menu {
+    margin-top: 7rem;
+    display: grid;
+    gap: 2.2rem;
+    justify-content: center;
+}
+
+#dashboard .left .menu .link {
+    display: flex;
+    gap: 1rem;
+    padding: 10px 45px;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #737791;
+    font-weight: 400;
+
+}
+
+#dashboard .left .menu .link:hover {
+    color: #FF4F16;
+}
+
+#dashboard .left .menu .active {
+    background: #FF4F16;
+    color: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+#dashboard .left .menu .active:hover {
+    color: #FFF;
+}
+
+.link_iconn {
+    font-size: 23px;
+}
+
+#dashboard .left .menu .link p {
+    margin-left: 1rem;
+}
+
+/* Right bar */
+#dashboard .right {
+    position: fixed;
+    top: 0;
+    left: 1;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 90px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.10);
+    padding: 0 2rem;
+}
+.logo_store{
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.logo .logo_store .image_logo img {
+    cursor: pointer;
+}
+.box_store_logo{
+    width: 60px;
+    height: auto;
+}
+/* form */
+.logo {
+    width: 20%;
+    margin-left: 1cm;
+}
+.logo input{
+    display: none;
+}
+
+
+.userAdminImage {
+    text-align: end;
+    padding-right: 3rem;
+}
+.userAdminImage img {
+    width: 10%;
+}
+
+
+/* =========== onClick icon edit ===============*/
+
+.background_addproductpopup_box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000036;
+    z-index: 999;
+}
+
+.hover_addproductpopup_box {
+    width: 30%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box_logout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 15vh;
+    background-color: #FFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box_logout p{
+    font-size: 18px;
+}
+
+.btn_cancel {
+    background-color: #F2F3F7;
+    color: #000;
+    font-size: 18px;
+}
+
+.btn_confirm {
+    background-color: #347FFF;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.btn_cancel:hover {
+    background-color: #e7e8ee;
+}
+
+.btn_confirm:hover {
+    background-color: #3076f0;
+}
+
+.btn_addproducttxt_popup {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    padding: 20px;
+
+}
+
+.input_of_txtAddproduct {
+    width: 80%;
+    border-radius: 30px;
+    padding: 20px;
+    border: 1px solid #DDDCE1;
+}
+
+.btn_foasdf {
+    display: flex;
+}
+
+
+
+/* ============= icon camera ===========*/
+
+.image_logo{
+    position: relative;
+    cursor: pointer;
+    width: 200px;
+    height: 10vh;
+    overflow: hidden;
+}
+
+.image_logo img{
+    position: relative;
+    cursor: pointer;
+    width: 65%;
+    height: 75%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.edit_image_logo {
+    position: absolute;
+    top: 28px;
+    right: 33px;
+    border: solid 1px #ccc;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 3px 3px 0 3px;
+    font-size: 15px;
+    margin: 3px;
+}
+
+
+.image_logo_store_name{
+    position: relative;
+    cursor: pointer;
+    width: 350px;
+    height: 10vh;
+    overflow: hidden;
+}
+.image_logo_store_name img{
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.edit_image_logo_store {
+    position: absolute;
+    top: 28px;
+    right: 1px;
+    border: solid 1px #ccc;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 3px 3px 0 3px;
+    font-size: 15px;
+    margin: 3px;
+}
+
+#box_icon_camera_product{
+    color: #f46738;
+    cursor: pointer;
+}
